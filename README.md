@@ -1,6 +1,7 @@
 # simple_video_recorder
 OpenCV를 이용한 간단한 동영상 녹화 프로그램이다.  
-[![simple video recorder preview](http://img.youtube.com/vi/6Fll-Eeg1us/0.jpg)](https://youtu.be/6Fll-Eeg1us)
+
+https://github.com/yhj0329/simple_video_recorder/assets/102153681/7b23ca33-c19f-4a5f-973d-d9e7f8f19ba8
 
 ## 기능 소개
 - 녹화 기능이 있다.
@@ -34,4 +35,5 @@ cv.VideoWriter('sample.확장자', fourCC, fps, (width, height))
 |    MOV     | XVID, DIVX, mp4v |
 |    WMV     |    XVID, DIVX    |
 |    ASF     | XVID, DIVX, mp4v |
+
 확장자와 코덱의 종류는 더 많지만 이정도가 자주 사용될 것 같다.
